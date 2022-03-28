@@ -22,7 +22,6 @@ def test_valid_movie_serializer():
     assert serializer.errors == {}
 
 
-
 def test_invalid_movie_serializer():
     invalid_serializer_data = {
         "title": "Homem-Aranha: Sem Volta para Casa",
